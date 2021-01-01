@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80CED8D259FDB9C00BE598D /* parser.py in Resources */ = {isa = PBXBuildFile; fileRef = C80CED8C259FDB9C00BE598D /* parser.py */; };
 		C832F93825968A0800992664 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C832F93725968A0800992664 /* Coordinator.swift */; };
 		C832F94125968AD100992664 /* RootViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C832F94025968AD100992664 /* RootViewControllerBuilder.swift */; };
 		C832F94E2596A38200992664 /* CitiesListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C832F94D2596A38200992664 /* CitiesListBuilder.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C80CED8C259FDB9C00BE598D /* parser.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parser.py; sourceTree = "<group>"; };
 		C832F93725968A0800992664 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C832F94025968AD100992664 /* RootViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerBuilder.swift; sourceTree = "<group>"; };
 		C832F94D2596A38200992664 /* CitiesListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListBuilder.swift; sourceTree = "<group>"; };
@@ -271,7 +273,6 @@
 				C8DA7DFE23FC6F1D00F5FDC9 /* UILayer */,
 				C832F93F25968A9800992664 /* ForecastBuilding */,
 				C832F936259689D900992664 /* Coordinator */,
-				C84572AC2401472700964432 /* GlobalConst.swift */,
 				C8411760259523880037473E /* DataModels */,
 				C8411759259522810037473E /* Fetchers */,
 				C89B64A923FF72D200C1EA87 /* Utils */,
@@ -338,6 +339,8 @@
 		C8DA7E0023FC701100F5FDC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C80CED8C259FDB9C00BE598D /* parser.py */,
+				C84572AC2401472700964432 /* GlobalConst.swift */,
 				C832F9682598CBBE00992664 /* cities.db */,
 				C89B648523FE173A00C1EA87 /* Munich.json */,
 				C8DA7DDF23FC5E7D00F5FDC9 /* Assets.xcassets */,
@@ -438,6 +441,7 @@
 				C832F9692598CBBE00992664 /* cities.db in Resources */,
 				C84572CD2402F52100964432 /* LoadingViewController.xib in Resources */,
 				C8DA7DE323FC5E7E00F5FDC9 /* LaunchScreen.storyboard in Resources */,
+				C80CED8D259FDB9C00BE598D /* parser.py in Resources */,
 				C89B648623FE173B00C1EA87 /* Munich.json in Resources */,
 				C89B64A823FF59DD00C1EA87 /* WeatherCell.xib in Resources */,
 				C8DA7DE023FC5E7D00F5FDC9 /* Assets.xcassets in Resources */,
